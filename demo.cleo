@@ -1,9 +1,10 @@
 !!!cd src
 !!!rm -rf *.o
 !!!rm -rf coverity
+!!!clear
 
 ls
-cat hello.c
+cat demo.c
 cov-build%%% --dir=coverity%%% make
 cov-analyze%%% --dir=coverity
-cov-commit-defects%%% --dir=coverity%%% --host=localhost --user=admin --password=coverity --stream=hello 
+cov-commit-defects%%% --dir=coverity%%% --host=localhost --user=admin --password=coverity --stream=demo 

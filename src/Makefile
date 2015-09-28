@@ -1,2 +1,2 @@
 compile:
-	gcc -c hello.c
+	gcc -c demo.c

@@ -2,6 +2,7 @@
 
 main()
 {
-    printf("Hello World");
+    int* foo;
+    *foo += 1;
 }
 
